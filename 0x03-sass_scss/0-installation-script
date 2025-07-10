@@ -1,0 +1,24 @@
+# SASS Installation Steps
+
+## Step 1: Install Node.js version 20.16 using NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+## Step 2: Exit and reopen terminal
+exit
+# Then reopen terminal
+
+## Step 3: Install and use Node.js version 20.16
+nvm install 20.16
+nvm use 20.16
+
+## Step 4: Install SASS using npm
+npm install -g sass
+
+## Step 5: Verify installation
+sass --version
+
+## Note: The command provided in instructions (npm install sass -v 3.7.4) is incorrect syntax.
+## The correct way to install a specific version would be:
+## npm install -g sass@1.77.8 (for Dart Sass)
+## or for the legacy Ruby Sass version 3.7.4:
+## gem install sass -v 3.7.4
